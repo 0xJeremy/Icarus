@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name STM32G474CEU6)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/STM32G474CEU6.lib)(options "")(descr ""))
+  (lib (name xt30femalw)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/xt30femalw.lib)(options "")(descr ""))
+  (lib (name xt30)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/xt30.lib)(options "")(descr ""))
+  (lib (name tps2490dgsr)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/tps2490dgsr.lib)(options "")(descr ""))
+)
