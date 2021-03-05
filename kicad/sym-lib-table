@@ -3,4 +3,6 @@
   (lib (name xt30femalw)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/xt30femalw.lib)(options "")(descr ""))
   (lib (name xt30)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/xt30.lib)(options "")(descr ""))
   (lib (name tps2490dgsr)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/tps2490dgsr.lib)(options "")(descr ""))
+  (lib (name psmn4r8-100bsej)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/psmn4r8-100bsej.lib)(options "")(descr ""))
+  (lib (name lt1787hvims8pbf)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/lt1787hvims8pbf.lib)(options "")(descr ""))
 )
