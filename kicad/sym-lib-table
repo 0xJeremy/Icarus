@@ -5,4 +5,6 @@
   (lib (name tps2490dgsr)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/tps2490dgsr.lib)(options "")(descr ""))
   (lib (name psmn4r8-100bsej)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/psmn4r8-100bsej.lib)(options "")(descr ""))
   (lib (name lt1787hvims8pbf)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/lt1787hvims8pbf.lib)(options "")(descr ""))
+  (lib (name stlm20dd9fudfn-4l_stm-l)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/stlm20dd9fudfn-4l_stm-l.lib)(options "")(descr ""))
+  (lib (name fsv10150vto277-3l_ons-l)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/fsv10150vto277-3l_ons-l.lib)(options "")(descr ""))
 )
