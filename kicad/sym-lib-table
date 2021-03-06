@@ -7,4 +7,6 @@
   (lib (name lt1787hvims8pbf)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/lt1787hvims8pbf.lib)(options "")(descr ""))
   (lib (name stlm20dd9fudfn-4l_stm-l)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/stlm20dd9fudfn-4l_stm-l.lib)(options "")(descr ""))
   (lib (name fsv10150vto277-3l_ons-l)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/fsv10150vto277-3l_ons-l.lib)(options "")(descr ""))
+  (lib (name p-channel_fet_sot-23-3)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/p-channel_fet_sot-23-3.lib)(options "")(descr ""))
+  (lib (name N_Channel_MOSFET)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/N_Channel_MOSFET.lib)(options "")(descr ""))
 )
