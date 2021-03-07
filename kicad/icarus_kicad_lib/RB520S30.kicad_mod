@@ -1,0 +1,54 @@
+
+(module SOD523 (layer F.Cu) (tedit 604528B0)
+  (descr "<B>DIODE</B>")
+  (fp_text reference REF** (at 1.383 -1.1072 0) (layer F.SilkS)
+    (effects (font (size 0.640462992126 0.640462992126) (thickness 0.015)))
+  )
+  (fp_text value SOD523 (at 1.179244 0.945555 0) (layer F.Fab)
+    (effects (font (size 0.480181102362 0.480181102362) (thickness 0.015)))
+  )
+  (fp_line (start 0.59 -0.5) (end 0.59 0.5) (layer F.Fab) (width 0.2032))
+  (fp_line (start -0.59 0.5) (end -0.59 -0.5) (layer F.Fab) (width 0.2032))
+  (fp_poly
+    (pts
+      (xy -0.750515 -0.17)
+      (xy -0.54 -0.17)
+      (xy -0.54 0.170117)
+      (xy -0.750515 0.170117)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.540089 -0.17)
+      (xy 0.75 -0.17)
+      (xy 0.75 0.170028)
+      (xy 0.540089 0.170028)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.590827 -0.4)
+      (xy -0.3 -0.4)
+      (xy -0.3 0.400561)
+      (xy -0.590827 0.400561)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.950108 -0.6)
+      (xy -0.75 -0.6)
+      (xy -0.75 -0.400046)
+      (xy -0.950108 -0.400046)
+    ) (layer F.SilkS) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.950583 0.4)
+      (xy -0.75 0.4)
+      (xy -0.75 0.600368)
+      (xy -0.950583 0.600368)
+    ) (layer F.SilkS) (width 0.01)
+  )
+  (pad A smd rect (at 0.7 0.0) (size 0.7 0.5) (layers F.Cu F.Mask F.Paste))
+  (pad C smd rect (at -0.6 0.0) (size 0.7 0.5) (layers F.Cu F.Mask F.Paste))
+)
