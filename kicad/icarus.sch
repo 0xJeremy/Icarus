@@ -1255,7 +1255,7 @@ Text GLabel 1250 1525 0    50   Input ~ 0
 MOSFET_TEMP
 Text GLabel 1250 1625 0    50   Input ~ 0
 I_SENSE_BIAS
-Text GLabel 1250 3925 0    50   Input ~ 0
+Text GLabel 1250 4425 0    50   Input ~ 0
 CAN_SHDN
 $Comp
 L power:GND #PWR0139
@@ -1755,9 +1755,9 @@ Wire Wire Line
 Connection ~ 8175 3525
 Wire Wire Line
 	8175 3525 8350 3525
-Text GLabel 1250 1825 0    50   Input ~ 0
+Text GLabel 4050 1925 2    50   Input ~ 0
 LED1
-Text GLabel 1250 2025 0    50   Input ~ 0
+Text GLabel 4050 2025 2    50   Input ~ 0
 LED2
 Text GLabel 1250 3825 0    50   Input ~ 0
 TPS_ENABLE
@@ -1826,9 +1826,9 @@ F 3 "~" H 5500 6350 50  0001 C CNN
 $EndComp
 Text GLabel 5500 6525 0    50   Input ~ 0
 LED4
-Text GLabel 1250 2225 0    50   Input ~ 0
+Text GLabel 4050 2125 2    50   Input ~ 0
 LED3
-Text GLabel 1250 3225 0    50   Input ~ 0
+Text GLabel 4050 2325 2    50   Input ~ 0
 LED4
 Wire Wire Line
 	4925 6450 4925 6525
@@ -1884,9 +1884,9 @@ F 3 "" H 4925 6050 50  0001 C CNN
 $EndComp
 Text GLabel 1250 1725 0    50   Input ~ 0
 I_SENSE
-Text GLabel 1250 3325 0    50   Input ~ 0
+Text GLabel 1250 3625 0    50   Input ~ 0
 24V_SENSE
-Text GLabel 1250 3425 0    50   Input ~ 0
+Text GLabel 1250 3725 0    50   Input ~ 0
 VSW_SENSE
 Text Notes 15425 5400 0    50   ~ 0
 XT30s
@@ -1935,19 +1935,12 @@ NoConn ~ 1250 2325
 NoConn ~ 1250 2425
 NoConn ~ 1250 2525
 NoConn ~ 1250 3025
-NoConn ~ 1250 3625
-NoConn ~ 1250 3725
 NoConn ~ 1250 4225
 NoConn ~ 1250 4325
-NoConn ~ 1250 4425
 NoConn ~ 1250 4525
 NoConn ~ 1250 4625
 NoConn ~ 1250 4725
 NoConn ~ 4050 2425
-NoConn ~ 4050 2325
-NoConn ~ 4050 2125
-NoConn ~ 4050 2025
-NoConn ~ 4050 1925
 NoConn ~ 4050 1825
 NoConn ~ 4050 1725
 NoConn ~ 4050 1625
@@ -2085,4 +2078,11 @@ F 3 "" H 1225 6825 50  0001 C CNN
 	1    1225 6825
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1250 3325
+NoConn ~ 1250 3425
+NoConn ~ 1250 3925
+NoConn ~ 1250 1825
+NoConn ~ 1250 2225
+NoConn ~ 1250 2025
+NoConn ~ 1250 3225
 $EndSCHEMATC

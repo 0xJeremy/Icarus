@@ -1255,7 +1255,7 @@ Text GLabel 1250 1525 0    50   Input ~ 0
 MOSFET_TEMP
 Text GLabel 1250 1625 0    50   Input ~ 0
 I_SENSE_BIAS
-Text GLabel 1250 3925 0    50   Input ~ 0
+Text GLabel 1250 4425 0    50   Input ~ 0
 CAN_SHDN
 $Comp
 L power:GND #PWR0139
@@ -1380,7 +1380,7 @@ U 1 1 605A3901
 P 8525 3525
 F 0 "R1" V 8329 3525 50  0000 C CNN
 F 1 "0.5m" V 8420 3525 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8525 3525 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" H 8525 3525 50  0001 C CNN
 F 3 "~" H 8525 3525 50  0001 C CNN
 	1    8525 3525
 	0    1    1    0   
@@ -1884,9 +1884,9 @@ F 3 "" H 4925 6050 50  0001 C CNN
 $EndComp
 Text GLabel 1250 1725 0    50   Input ~ 0
 I_SENSE
-Text GLabel 1250 3325 0    50   Input ~ 0
+Text GLabel 1250 3625 0    50   Input ~ 0
 24V_SENSE
-Text GLabel 1250 3425 0    50   Input ~ 0
+Text GLabel 1250 3725 0    50   Input ~ 0
 VSW_SENSE
 Text Notes 15425 5400 0    50   ~ 0
 XT30s
@@ -1935,11 +1935,8 @@ NoConn ~ 1250 2325
 NoConn ~ 1250 2425
 NoConn ~ 1250 2525
 NoConn ~ 1250 3025
-NoConn ~ 1250 3625
-NoConn ~ 1250 3725
 NoConn ~ 1250 4225
 NoConn ~ 1250 4325
-NoConn ~ 1250 4425
 NoConn ~ 1250 4525
 NoConn ~ 1250 4625
 NoConn ~ 1250 4725
@@ -2075,14 +2072,17 @@ Connection ~ 8475 4825
 Wire Wire Line
 	8475 4825 8475 4900
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0157
 U 1 1 60A47D8A
 P 1225 6825
-F 0 "#PWR?" H 1225 6575 50  0001 C CNN
+F 0 "#PWR0157" H 1225 6575 50  0001 C CNN
 F 1 "GND" H 1230 6652 50  0000 C CNN
 F 2 "" H 1225 6825 50  0001 C CNN
 F 3 "" H 1225 6825 50  0001 C CNN
 	1    1225 6825
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1250 3325
+NoConn ~ 1250 3425
+NoConn ~ 1250 3925
 $EndSCHEMATC
