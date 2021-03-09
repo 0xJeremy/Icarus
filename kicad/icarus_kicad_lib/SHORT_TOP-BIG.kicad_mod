@@ -1,0 +1,12 @@
+(module power_dist:SHORT_TOP-BIG (layer F.Cu) (tedit 0)
+  (fp_text reference SH1 (at -1.27 2.032) (layer F.SilkS) hide
+    (effects (font (size 1.2065 1.2065) (thickness 0.2032)) (justify right top))
+  )
+  (fp_text value SHORTBIG (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
+  )
+  (pad 1 smd rect (at 0.635 0) (size 1.27 1.27) (layers F.Cu F.Mask)
+    (solder_mask_margin 0.0508))
+  (pad 2 smd rect (at -0.635 0) (size 1.27 1.27) (layers F.Cu F.Mask)
+    (solder_mask_margin 0.0508))
+)
