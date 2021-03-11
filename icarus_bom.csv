@@ -1,42 +1,42 @@
-Reference, Quantity, Value, Footprint, Datasheet
-C14 ,1,"10nF","","~"
-C19 C18 ,2,"0.01uF","","~"
-C3 C13 ,2,"10uF","","~"
-C4 C2 C7 ,3,"1uF, 100V","","~"
-C6 ,1,"0.1uF, 100V","","~"
-C8 ,1,"1uF","","~"
-C9 C10 C11 C1 C5 C15 C16 C17 C12 ,9,"0.1uF","","~"
-D1 ,1,"RB520S30","","~"
-D2 D3 ,2,"SMBJ51CA-E3/52","","~"
-D5 D4 ,2,"Green","","~"
-D6 D7 D8 D9 ,4,"Blue","","~"
-H1 H2 H3 H4 ,4,"MountingHole_Pad","","~"
-J1 J2 ,2,"CAN Bus","","~"
-J3 ,1,"SWD Programming","","~"
-J4 ,1,"USB_B_Micro","","~"
-L1 ,1,"33uH","","~"
-M1 M2 M4 ,3,"PSMN4R8-100BSEJ","",""
-M3 ,1,"BSS123","",""
-R1 ,1,"0.5m","","~"
-R10 ,1,"140k, 1%","","~"
-R15 R3 ,2,"47k, 1%","","~"
-R16 ,1,"6.8k, 1%","","~"
-R17 ,1,"R_Small","","~"
-R19 R18 ,2,"3M, 1%","","~"
-R2 ,1,"470k","","~"
-R21 R20 ,2,"200k, 1%","","~"
-R4 ,1,"10","","~"
-R5 R9 ,2,"100k","","~"
-R7 R11 R6 R12 R13 R14 ,6,"220","","~"
-R8 ,1,"499k, 1%","","~"
-U1 ,1,"MAX15062A","Package_DFN_QFN:DFN-8_2x2mm_P0.5mm","http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf"
-U14 ,1,"LT1787HVIMS8PBF","",""
-U15 ,1,"USBLC6-2SC6","Package_TO_SOT_SMD:SOT-23-6","https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-U16 ,1,"STLM20DD9FUDFN-4L_STM-L","",""
-U2 ,1,"STM32G474CEU6","UFQFPN-48_7X7X0P55MM",""
-U3 ,1,"TCAN334G","","http://www.ti.com/lit/ds/symlink/tcan337.pdf"
-U4 ,1,"ZXMP10A13FTA","",""
-U5 ,1,"XT90","",""
-U6 ,1,"FSV10150VTO277-3L_ONS-L","",""
-U7 U8 U10 U11 U12 U13 ,6,"XT30","",""
-U9 ,1,"TPS2490DGSR","",""
+Reference, Quantity, Value, Footprint
+C14 ,1,10nF,Capacitor_SMD:C_0402_1005Metric
+C19 C18 ,2,0.01uF,Capacitor_SMD:C_0402_1005Metric
+C3 C13 ,2,10uF,Capacitor_SMD:C_0402_1005Metric
+C4 C2 C7 ,3,"1uF, 100V",Capacitor_SMD:C_0805_2012Metric
+C6 ,1,"0.1uF, 100V",Capacitor_SMD:C_0402_1005Metric
+C8 ,1,1uF,Capacitor_SMD:C_0402_1005Metric
+C9 C10 C11 C1 C5 C15 C16 C17 C12 ,9,0.1uF,Capacitor_SMD:C_0402_1005Metric
+CR1 CR2 ,2,SMBJ51CA-E3_52,icarus_kicad_lib:SMBJ51CA-E3-52
+D1 ,1,RB520S30,icarus_kicad_lib:RB520S30
+D3 D2 ,2,Green,LED_SMD:LED_0603_1608Metric
+D4 D5 D6 D7 ,4,Blue,LED_SMD:LED_0603_1608Metric
+H1 H2 H3 H4 ,4,MountingHole_Pad,MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad
+J1 J2 ,2,CAN Bus,Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical
+J3 ,1,SWD Programming,Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical
+J4 ,1,USB_B_Micro,Connector_USB:USB_Micro-AB_Molex_47590-0001
+JP1 ,1,Jumper_2_Bridged,icarus_kicad_lib:SHORT_TOP-BIG
+L1 ,1,33uH,Inductor_SMD:L_1210_3225Metric
+MOSFET1 MOSFET3 MOSFET5 ,3,PSMN4R8-100BSEJ,icarus_kicad_lib:PSMN4R8-100BSEJ
+MOSFET2 ,1,ZXMP10A13FTA,icarus_kicad_lib:ZXMP10A13FTA
+MOSFET4 ,1,BSS123,digikey-footprints:SOT-23-3
+R1 ,1,0.5m,Resistor_SMD:R_2512_6332Metric
+R14 R2 ,2,"47k, 1%",Resistor_SMD:R_0402_1005Metric
+R15 ,1,470k,Resistor_SMD:R_0402_1005Metric
+R16 R17 R18 ,3,"6.8k, 1%",Resistor_SMD:R_0402_1005Metric
+R20 R19 ,2,"3M, 1%",Resistor_SMD:R_0603_1608Metric
+R22 R21 ,2,"200k, 1%",Resistor_SMD:R_0402_1005Metric
+R3 R8 ,2,100k,Resistor_SMD:R_0402_1005Metric
+R5 R10 R4 R11 R12 R13 ,6,220,Resistor_SMD:R_0402_1005Metric
+R6 ,1,10,Resistor_SMD:R_0402_1005Metric
+R7 ,1,"499k, 1%",Resistor_SMD:R_0402_1005Metric
+R9 ,1,"140k, 1%",Resistor_SMD:R_0402_1005Metric
+U1 ,1,MAX15062A,Package_DFN_QFN:DFN-8_2x2mm_P0.5mm
+U13 ,1,LT1787HVIMS8PBF,icarus_kicad_lib:LT1787HVIMS8PBF
+U14 ,1,USBLC6-2SC6,digikey-footprints:SOT-23-6
+U15 ,1,STLM20DD9FUDFN-4L_STM-L,icarus_kicad_lib:STLM20DD9FUDFN-4L_STM-L
+U2 ,1,STM32G474CEU6,icarus_kicad_lib:STM32G474CEU6
+U3 ,1,TCAN334G,icarus_kicad_lib:TCAN334G
+U4 ,1,XT90,icarus_kicad_lib:XT90PW-M
+U5 ,1,FSV10150VTO277-3L_ONS-L,icarus_kicad_lib:FSV10150VTO277-3L_ONS-L
+U6 U7 U9 U10 U11 U12 ,6,XT30,icarus_kicad_lib:XT30P
+U8 ,1,TPS2490DGSR,icarus_kicad_lib:TPS2490DGSR

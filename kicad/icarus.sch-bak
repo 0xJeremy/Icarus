@@ -522,8 +522,30 @@ $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 604D92AD
+P 13275 6425
+F 0 "H2" V 13229 6575 50  0000 L CNN
+F 1 "MountingHole_Pad" V 13320 6575 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 13275 6425 50  0001 C CNN
+F 3 "~" H 13275 6425 50  0001 C CNN
+	1    13275 6425
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 604D9523
+P 13275 6625
+F 0 "H3" V 13229 6775 50  0000 L CNN
+F 1 "MountingHole_Pad" V 13320 6775 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 13275 6625 50  0001 C CNN
+F 3 "~" H 13275 6625 50  0001 C CNN
+	1    13275 6625
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 604D96CD
 P 13275 5975
-F 0 "H2" V 13229 6125 50  0000 L CNN
+F 0 "H4" V 13229 6125 50  0000 L CNN
 F 1 "MountingHole_Pad" V 13320 6125 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 13275 5975 50  0001 C CNN
 F 3 "~" H 13275 5975 50  0001 C CNN
@@ -531,49 +553,18 @@ F 3 "~" H 13275 5975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 604D9523
-P 13275 6225
-F 0 "H3" V 13229 6375 50  0000 L CNN
-F 1 "MountingHole_Pad" V 13320 6375 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 13275 6225 50  0001 C CNN
-F 3 "~" H 13275 6225 50  0001 C CNN
-	1    13275 6225
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 604D96CD
-P 13275 6475
-F 0 "H4" V 13229 6625 50  0000 L CNN
-F 1 "MountingHole_Pad" V 13320 6625 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 13275 6475 50  0001 C CNN
-F 3 "~" H 13275 6475 50  0001 C CNN
-	1    13275 6475
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR040
 U 1 1 604DA2B5
-P 13175 6600
-F 0 "#PWR040" H 13175 6350 50  0001 C CNN
-F 1 "GND" H 13180 6427 50  0000 C CNN
-F 2 "" H 13175 6600 50  0001 C CNN
-F 3 "" H 13175 6600 50  0001 C CNN
-	1    13175 6600
+P 13175 5975
+F 0 "#PWR040" H 13175 5725 50  0001 C CNN
+F 1 "GND" H 13180 5802 50  0000 C CNN
+F 2 "" H 13175 5975 50  0001 C CNN
+F 3 "" H 13175 5975 50  0001 C CNN
+	1    13175 5975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13175 5750 13175 5975
-Connection ~ 13175 5975
-Wire Wire Line
-	13175 5975 13175 6225
-Connection ~ 13175 6225
-Wire Wire Line
-	13175 6225 13175 6475
-Connection ~ 13175 6475
-Wire Wire Line
-	13175 6475 13175 6600
 $Comp
 L xt30:XT30 U6
 U 1 1 604E38EC
@@ -2133,14 +2124,17 @@ F 3 "" H 11125 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR?
+L power:GNDPWR #PWR0106
 U 1 1 607F4367
 P 15075 4875
-F 0 "#PWR?" H 15075 4675 50  0001 C CNN
+F 0 "#PWR0106" H 15075 4675 50  0001 C CNN
 F 1 "GNDPWR" H 15079 4721 50  0000 C CNN
 F 2 "" H 15075 4825 50  0001 C CNN
 F 3 "" H 15075 4825 50  0001 C CNN
 	1    15075 4875
 	1    0    0    -1  
 $EndComp
+Connection ~ 13175 5975
+NoConn ~ 13175 6425
+NoConn ~ 13175 6625
 $EndSCHEMATC
