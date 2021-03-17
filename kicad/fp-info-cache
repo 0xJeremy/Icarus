@@ -1,4 +1,4 @@
-19469695462177350
+19472927309952350
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -85330,6 +85330,13 @@ FSV10150VTO277-3L_ONS-L
 3
 3
 icarus_kicad_lib
+Icarus_Logo
+
+
+0
+0
+0
+icarus_kicad_lib
 LT1787HVIMS8PBF
 
 
@@ -85378,6 +85385,13 @@ STLM20DD9FUDFN-4L_STM-L
 0
 4
 4
+icarus_kicad_lib
+STM32G474CET6
+
+
+0
+48
+48
 icarus_kicad_lib
 STM32G474CEU6
 

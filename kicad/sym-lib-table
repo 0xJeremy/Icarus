@@ -11,4 +11,5 @@
   (lib (name N_Channel_MOSFET)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/N_Channel_MOSFET.lib)(options "")(descr ""))
   (lib (name icarus-rescue)(type Legacy)(uri ${KIPRJMOD}/icarus-rescue.lib)(options "")(descr ""))
   (lib (name RB520S30)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/RB520S30.lib)(options "")(descr ""))
+  (lib (name STM32G474CET6)(type Legacy)(uri ${KIPRJMOD}/icarus_kicad_lib/STM32G474CET6.lib)(options "")(descr ""))
 )
